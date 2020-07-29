@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import random
 
-TOKEN = ""
+TOKEN = "NzM4MTE3NjY3MTE3OTg5OTM5.XyHPpQ.dQN46LCBIfWo9WKJh8q3stYX_f0"
 
 bot = commands.Bot(command_prefix = "lmgtf")
 

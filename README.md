@@ -4,7 +4,7 @@
 Get the bot [here](https://discord.com/api/oauth2/authorize?client_id=738117667117989939&permissions=358464&scope=bot)
 
 # What does it do?
-Did you or someone else ask a stupid question without googleing it first? Just type `lmgtfy "your question"` to answer it.
+Did you or someone else ask a stupid question without googleing it first? Just type `lmgtfy "your question"` to answer.
 
 ![img](assets/img.jpg)
 
