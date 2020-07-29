@@ -22,6 +22,6 @@ async def y(ctx, str):
     seed = random.randrange(0, len(phrases))
     phrase = phrases[seed]
     
-    await ctx.send(f"{phrase}\n{link}")
+    await ctx.send(f"`{phrase}`\n{link}")
 
 bot.run(TOKEN)
