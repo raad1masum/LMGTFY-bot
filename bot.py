@@ -13,4 +13,8 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send(f"Pong! {round(client.latency * 1000)}ms")
 
+@client.command()
+async def y(ctx):
+    await ctx.send("let me google that for you")
+
 client.run(TOKEN)
