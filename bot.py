@@ -3,7 +3,7 @@ from discord.ext import commands
 
 TOKEN = ""
 
-client = commands.Bot(command_prefix = "lmgtfy")
+client = commands.Bot(command_prefix = "lmgtf")
 
 @client.event
 async def on_ready():
