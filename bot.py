@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import random
 
 TOKEN = ""
 
@@ -18,6 +19,9 @@ async def ping(ctx):
 @bot.command()
 async def y(ctx, str):
     link = f"https://lmgtfy.com/?q={str.replace(' ', '+')}"
-    await ctx.send(f"let me google that for you\n{link}")
+    seed = random.randrange(0, len(phrases))
+    phrase = phrases[seed]
+    
+    await ctx.send(f"{phrase}\n{link}")
 
 bot.run(TOKEN)
