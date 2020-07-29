@@ -5,7 +5,7 @@ TOKEN = ""
 
 bot = commands.Bot(command_prefix = "lmgtf")
 
-phrases = ["Let Me Google That For You", "Contrary to popular belief, there are stupid questions. Here's the answer to yours:", "You could have done this your self, but here you go:", "You should know this by now", "The answer is so obvious", "You clearly aren't very good at this game"]
+phrases = ["Let Me Google That For You", "Contrary to popular belief, there are stupid questions. Here's the answer to yours:", "You could have done this yourself, but here you go:", "You should know this by now", "The answer is so obvious", "You clearly aren't very good at this game"]
 
 @bot.event
 async def on_ready():
