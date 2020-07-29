@@ -15,6 +15,6 @@ async def ping(ctx):
 
 @bot.command()
 async def y(ctx, str):
-    await ctx.send(f"let me google that for you {str}")
+    await ctx.send(f"let me google that for you\n {str}")
 
 bot.run(TOKEN)
