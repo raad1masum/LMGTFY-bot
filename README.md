@@ -2,7 +2,7 @@
 > "Contrary to popular belief, there are stupid questions." - George Hotz
 
 ## 🤖 What does it do?
-Did you or someone else ask a stupid question without googleing it first? Just type `lmgtfy "your question"` to answer it.
+Did someone ask a stupid question without googling it first? Just type `lmgtfy "your question"` to answer it.
 
 ![img](assets/img.jpg)
 
