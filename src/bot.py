@@ -14,14 +14,14 @@ async def on_ready():
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send(f"Pong! {round(client.latency * 1000)}ms")
+    await ctx.send(f"Pong! {round(bot.latency * 1000)}ms")
 
 @bot.command()
 async def y(ctx, str):
     link = f"https://lmgtfy.com/?q={str.replace(' ', '+')}"
     seed = random.randrange(0, len(phrases))
     phrase = phrases[seed]
-    
+
     await ctx.send(f"`{phrase}`\n{link}")
 
 bot.run(TOKEN)
