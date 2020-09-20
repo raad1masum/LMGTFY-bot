@@ -7,14 +7,13 @@ Did you or someone else ask a stupid question without googleing it first? Just t
 ![img](assets/img.jpg)
 
 ## 🚀 Local Development
+Create a file called `token` and put your token in it.
 ```python
-TOKEN = "<TOKEN>"
-
 bot = commands.Bot(command_prefix = "<PREFIX>")
 
 phrases = ["<PHRASE>", "<PHRASE>", "<PHRASE>"]
-
 ```
+
 ## 👨‍💻 Contact
 
 Linkedin: [Raadwan Masum](https://www.linkedin.com/in/raadwan-masum-9147bb1a5)
